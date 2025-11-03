@@ -20,11 +20,11 @@
     "responseOverrides": {
         "404": {
             "rewrite": "/notfound",
-            "statusCode": 200
+            "statusCode": 404
         },
         "401":{
             "rewrite": "/unauth",
-            "statusCode": 200
+            "statusCode": 401
         }
     },
     "navigationFallback": {
