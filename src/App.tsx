@@ -9,9 +9,9 @@ function App() {
   return (
     <Routes>
         <Route path="/" index element={<Home />} />
-        <Route path="/admin" element={<Admin />} />
-        <Route path="/notfound" element={<NotFound />} />
-        <Route path="/unauth" element={<UnAuth />} />
+        <Route path="admin" element={<Admin />} />
+        <Route path="notfound" element={<NotFound />} />
+        <Route path="unauth" element={<UnAuth />} />
     </Routes>
   )
 }
