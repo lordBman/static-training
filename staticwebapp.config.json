@@ -17,6 +17,16 @@
             "rewrite": "/.auth/logout"
         }
     ],
+    "responseOverrides": {
+        "404": {
+            "rewrite": "/notfound",
+            "statusCode": 200
+        },
+        "401":{
+            "rewrite": "/unauth",
+            "statusCode": 200
+        }
+    },
     "navigationFallback": {
         "rewrite": "/index.html"
     }
