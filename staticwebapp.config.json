@@ -1,4 +1,10 @@
 {
+    "routes": [
+        {
+            "route": "*",
+            "rewrite": "/notfound"
+        }
+    ],
     "navigationFallback": {
         "rewrite": "/index.html"
     }
